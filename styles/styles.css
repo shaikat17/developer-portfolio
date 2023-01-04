@@ -23,6 +23,19 @@
   text-transform: capitalize;
 }
 
+.btn-primary-outline {
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  height: 64px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px;
+  margin-top: 5px;
+  background: transparent;
+}
+
+
 .header {
   background-color: #fff8f3;
   background-image: url("../images/header_bg.png"),
@@ -74,6 +87,10 @@ nav li {
   font-size: 18px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.banner button {
+    display: inline;
 }
 
 /* main section */
@@ -196,8 +213,8 @@ main {
   padding: 130px 200px;
 }
 
-.contact input[type=text],
-[type=email],
+.contact input[type="text"],
+[type="email"],
 textarea {
   margin-bottom: 24px;
   border: none;
@@ -210,6 +227,6 @@ textarea {
   margin-right: 20px;
 }
 
-.contact input[type=text]:focus {
+.contact input[type="text"]:focus {
   border: 2px solid #fd6e0a;
 }
